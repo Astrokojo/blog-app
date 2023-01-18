@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Chip from '../../../common/Chip';
 import './styles.css';
 
+
 const BlogItem = ({
   blog: {
     description,
@@ -12,7 +13,7 @@ const BlogItem = ({
     authorAvatar,
     cover,
     category,
-    id,
+    id
   },
 }) => {
   return (
